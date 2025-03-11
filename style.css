@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+.our-header-area{
+    background-color: rgb(12, 76, 62);
+}
+.logo{
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    background-color: white;
+    color: black;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 5px 10px;
+    align-items: center;
+}
+.our-hero-area{
+    background-color: rgb(6, 66, 49);
+    height: 685px;
+    width: 100%;
+}
+.hero-section{
+    color: white;
+    padding-top: 200px;
+}
+.hero-span{
+    font-size: 15px;
+}
+.hero-heading{
+    font-size: 50px;
+}
+.hero-button{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    padding: 15px 30px;
+    border-radius: 0 50px 50px 50px;
+}
+.hero-image{
+    padding-top: 3px;
+}
+.section1{
+    background-color: rgb(231, 180, 145);
+    margin-top: 5px;
+}
+.section1-1{
+    padding-top: 30px;
+    text-align: center;
+}
+.section1-2{
+    padding-top: 30px;
+    text-align: center;
+}
+.section1-3{
+    padding-top: 30px;
+    text-align: center;
+}
+.section2{
+    background-color: rgb(231, 180, 145);
+    height: 300px;
+    width: 100%;
+    margin-top: 5px;
+}
+.section2-image{
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+}
+.section2-2{
+    padding-bottom: 300px;
+}
+.section2-2{
+    padding-top: 200px;
+    color: rgb(6, 66, 49);
+}
+.section2-para{
+    padding-top: 60px;
+}
+.para2{
+    font-weight: 600;
+}
+.section2-button{
+    margin-top: 15px;
+    background-color: rgb(6, 66, 49);
+    color: white;
+    border-style: none;
+    padding: 5px 20px;
+    border-radius: 0 50px 50px 50px;
+}
+.section3{
+    margin-top: 500px;
+}
+.section3-1{
+    text-align: center;
+}
+.card1{
+    position: relative;
+}
+.cards{
+    height: 350px;
+    width: 300px;
+}
+.cardtitle{
+    background-color: rgb(6, 66, 49);
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+}
+.cardbody{
+    display: flex;
+}
+.cardpara{
+    background-color: rgb(224, 152, 114);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.section4-1{
+    display: flex;
+}
+.section4{
+    background-image: url("assets/images/section4-image1.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.section4-image{
+    margin-top: 40px;
+}
+.section4-2{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.section4-header{
+    color: rgb(6, 66, 49);
+}
+.section4-span{
+    color: rgb(6, 66, 49);
+    font-weight: 600;
+}
+.section4-para{
+    padding-top: 5px;
+}
+.section4-button{
+    margin-top: 5px;
+    background-color: rgb(6, 66, 49);
+    color: white;
+    border-style: none;
+    padding: 5px 20px;
+    border-radius: 0 50px 50px 50px;
+}
+.section4-card1{
+    background-color: rgb(6, 66, 49);
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+}
+.section4-header1{
+    font-size: 30px;
+    color: white;
+}
+.section4-card2{
+    background-color: white;
+    text-align: start;
+    height: 500px;
+    padding-top: 30px;
+}
+.section4-span1{
+    color: rgb(6, 66, 49);
+}
+.section4-header2{
+    color: rgb(6, 66, 49);
+    font-size: 30px;
+    padding-top: 5px;
+}
+.section4-button1{
+    background-color: rgb(224, 152, 114);
+    width: 650px;
+    height: 400px;
+    text-align: start;
+}
+.section4-button2{
+    background-color: rgb(231, 180, 145);
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 15px;
+    padding-right: 545px;
+    border-style: none;
+    border-radius: 15px;
+    color: white;
+}
+.section4-button3{
+    background-color: rgb(231, 180, 145);
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 15px;
+    padding-right: 545px;
+    border-style: none;
+    border-radius: 15px;
+    color: white;
+}
+.section4-button4{
+    background-color: rgb(231, 180, 145);
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+    padding-right: 545px;
+    border-style: none;
+    border-radius: 15px;
+    color: white;
+}
+.section4-button5{
+    background-color: rgb(6, 66, 49);
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 15px;
+    padding-right: 545px;
+    border-style: none;
+    border-radius: 15px;
+    color: white;
+}
+.section4-3{
+    padding-top: 50px;
+}
+.section4-header3{
+    color: rgb(224, 152, 114);
+}
+.section4-header4{
+    color: rgb(6, 66, 49);
+}
+.section4-header5{
+    color: rgb(6, 66, 49);
+    padding-top: 40px;
+}
+.section4-header6{
+    color: rgb(224, 152, 114);
+    padding-top: 40px;
+}
